@@ -1,5 +1,7 @@
 package main
 
+import "fmt"
+
 // Grading Students
 func gradingStudents(grades []int32) []int32 {
 	result := []int32{}
@@ -13,4 +15,12 @@ func gradingStudents(grades []int32) []int32 {
 		}
 	}
 	return result
+}
+
+func gradingStudentsSample() {
+	grades := []int32{73, 67, 38, 33}
+	result := gradingStudents(grades)
+	for _, grade := range result {
+		fmt.Println(grade)
+	}
 }
