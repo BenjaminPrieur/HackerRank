@@ -1,7 +1,7 @@
 package main
 
 func main() {
-	gradingStudentsSample()
-	appleAndOrangeSample()
+	// gradingStudentsSample()
+	// appleAndOrangeSample()
 	formingMagicSquareSample()
 }
